@@ -52,10 +52,11 @@ enum class ReaderTheme(
     val textColor: Color,
     val cardColor: Color
 ) {
-    LIGHT("Claro", ReaderLightBg, ReaderLightText, Color.White),
-    NIGHT("Noturno", ReaderNightBg, ReaderNightText, Color(0xFF1E293B)),
-    SEPIA("Sépia", ReaderSepiaBg, ReaderSepiaText, Color(0xFFEFE6D7)),
-    FOREST("Floresta", ReaderForestBg, ReaderForestText, Color(0xFF1B3529))
+    PURPLE("Roxo", ReaderPurpleBg, ReaderPurpleText, Color(0xFF261042)),
+    NIGHT("Noturno", ReaderNightBg, ReaderNightText, Color(0xFF1F0D36)),
+    SEPIA("Sépia", ReaderSepiaBg, ReaderSepiaText, Color(0xFF381C40)),
+    LIGHT("Claro", ReaderLightBg, ReaderLightText, Color(0xFFFAF5FF)),
+    FOREST("Floresta", ReaderForestBg, ReaderForestText, Color(0xFF1A1633))
 }
 
 data class ParsedChapter(
@@ -188,7 +189,7 @@ fun ReaderScreen(
     }
 
     // Reader UI Themes & Typography
-    var selectedTheme by remember { mutableStateOf(ReaderTheme.NIGHT) } // Starts in Night Mode
+    var selectedTheme by remember { mutableStateOf(ReaderTheme.PURPLE) } // Starts in Purple Theme
     var fontSizeSp by remember { mutableFloatStateOf(18f) }
     var lineSpacingMultiplier by remember { mutableFloatStateOf(1.5f) }
     var currentFontFamily by remember { mutableStateOf("Serif") }
@@ -487,15 +488,15 @@ fun ReaderScreen(
                         )
                     }
 
-                    // Night Mode Quick Toggle
+                    // Theme Quick Toggle
                     IconButton(
                         onClick = {
-                            selectedTheme = if (selectedTheme == ReaderTheme.NIGHT) ReaderTheme.SEPIA else ReaderTheme.NIGHT
+                            selectedTheme = if (selectedTheme == ReaderTheme.PURPLE) ReaderTheme.NIGHT else ReaderTheme.PURPLE
                         }
                     ) {
                         Icon(
-                            imageVector = if (selectedTheme == ReaderTheme.NIGHT) Icons.Default.LightMode else Icons.Default.DarkMode,
-                            contentDescription = "Alternar Modo Noturno",
+                            imageVector = if (selectedTheme == ReaderTheme.PURPLE) Icons.Default.Palette else Icons.Default.DarkMode,
+                            contentDescription = "Alternar Tema",
                             tint = selectedTheme.textColor
                         )
                     }

@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Lumina Reader"
+rootProject.name = "Rocky Reader"
 
 include(":app")

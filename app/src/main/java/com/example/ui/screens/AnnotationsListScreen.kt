@@ -71,7 +71,7 @@ fun AnnotationsListScreen(
                     IconButton(
                         onClick = {
                             val bulkText = buildString {
-                                appendLine("# 📚 Caderno Geral de Citações - Lumina Reader")
+                                appendLine("# 📚 Caderno Geral de Citações - Rocky Reader")
                                 appendLine("Total de citações: ${filtered.size}")
                                 appendLine("---")
                                 appendLine()

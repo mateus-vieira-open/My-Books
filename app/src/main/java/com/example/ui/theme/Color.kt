@@ -2,32 +2,47 @@ package com.example.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// Brand Colors (Deep Indigo & Amber Gold)
-val IndigoPrimary = Color(0xFF4338CA)
-val IndigoPrimaryDark = Color(0xFF818CF8)
-val AmberAccent = Color(0xFFF59E0B)
-val AmberAccentLight = Color(0xFFFCD34D)
+// Purple Theme Colors (Tema Roxo & Letras Brancas)
+val PurplePrimary = Color(0xFFA855F7)
+val PurplePrimaryLight = Color(0xFFC084FC)
+val PurplePrimaryDark = Color(0xFF9333EA)
+val PurpleContainer = Color(0xFF581C87)
+val PurpleContainerLight = Color(0xFF7E22CE)
 
-// Reader Themes
-val ReaderLightBg = Color(0xFFFAF9F6)
-val ReaderLightText = Color(0xFF1F2937)
+val PurpleSecondary = Color(0xFFE879F9)
+val PurpleSecondaryDark = Color(0xFFC026D3)
+val PurpleSecondaryContainer = Color(0xFF701A75)
 
-val ReaderNightBg = Color(0xFF0F172A)
-val ReaderNightText = Color(0xFFE2E8F0)
+val PurpleBackground = Color(0xFF120721)
+val PurpleSurface = Color(0xFF1F0D36)
+val PurpleSurfaceVariant = Color(0xFF2E164E)
+val PurpleSurfaceBorder = Color(0xFF4C1D95)
 
-val ReaderSepiaBg = Color(0xFFF8F1E5)
-val ReaderSepiaText = Color(0xFF423428)
+// White Typography (Letras Brancas)
+val TextWhite = Color(0xFFFFFFFF)
+val TextWhiteVariant = Color(0xFFE9D5FF)
+val TextWhiteMuted = Color(0xFFD8B4FE)
 
-val ReaderForestBg = Color(0xFF11221B)
-val ReaderForestText = Color(0xFFD4E5DC)
+// Rock / Asteroid Logo Colors
+val RockBrown = Color(0xFF92400E)
+val RockBrownDark = Color(0xFF5C2808)
+val RockBorderWhite = Color(0xFFFFFFFF)
 
-// Standard Theme Colors
-val Slate900 = Color(0xFF0F172A)
-val Slate800 = Color(0xFF1E293B)
-val Slate700 = Color(0xFF334155)
-val Slate600 = Color(0xFF475569)
-val Slate100 = Color(0xFFF1F5F9)
-val Slate50 = Color(0xFFF8FAFC)
+// Reader Modes
+val ReaderPurpleBg = Color(0xFF140824)
+val ReaderPurpleText = Color(0xFFFFFFFF)
+
+val ReaderLightBg = Color(0xFFFAF5FF)
+val ReaderLightText = Color(0xFF1F0D36)
+
+val ReaderNightBg = Color(0xFF0D0417)
+val ReaderNightText = Color(0xFFFFFFFF)
+
+val ReaderSepiaBg = Color(0xFF2D1630)
+val ReaderSepiaText = Color(0xFFFFF0F5)
+
+val ReaderForestBg = Color(0xFF171329)
+val ReaderForestText = Color(0xFFF3E8FF)
 
 // Highlight Colors
 val HighlightYellow = Color(0xFFFEF08A)

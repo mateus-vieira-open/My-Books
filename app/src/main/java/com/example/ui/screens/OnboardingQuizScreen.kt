@@ -31,13 +31,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.data.local.entity.UserProfileEntity
 
-// Custom berry/magenta palette matching the reference image
-val ChipSelectedBorder = Color(0xFFBE185D) // Vibrant deep magenta/berry
-val ChipSelectedBg = Color(0xFFFDF2F8)     // Soft blush tint
-val ChipSelectedText = Color(0xFF9D174D)   // High-contrast deep berry text
-val ChipUnselectedBorder = Color(0xFFCBD5E1) // Subtle slate border
-val ChipUnselectedBg = Color(0xFFFFFFFF)     // Clean white pill
-val ChipUnselectedText = Color(0xFF475569)   // Slate gray text
+// Purple theme palette for chips (tema roxo e letras brancas)
+val ChipSelectedBorder = Color(0xFFA855F7) // Vibrant purple
+val ChipSelectedBg = Color(0xFF581C87)     // Deep purple pill
+val ChipSelectedText = Color(0xFFFFFFFF)   // White text
+val ChipUnselectedBorder = Color(0xFF4C1D95) // Purple border
+val ChipUnselectedBg = Color(0xFF261042)     // Dark purple pill
+val ChipUnselectedText = Color(0xFFE9D5FF)   // Lavender white text
 
 val AvailableLiteraryGenres = listOf(
     "Teologia",

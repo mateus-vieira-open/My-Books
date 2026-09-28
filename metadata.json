@@ -1,6 +1,6 @@
 {
-  "name": "Lumina Reader",
-  "description": "Aplicativo de leitura digital com anotações em e-books, recomendações inteligentes com Gemini, busca por ISBN, metas gamificadas e sincronização.",
+  "name": "Rocky Reader",
+  "description": "Leitor de livros EPUB inteligente, estudo com flashcards e repetição espaçada, recomendações por IA e catalogação por ISBN.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

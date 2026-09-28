@@ -541,7 +541,7 @@ fun SyncAndProfileScreen(
                     Spacer(modifier = Modifier.height(12.dp))
 
                     Text(
-                        text = "O Lumina Reader formata automaticamente todas as suas anotações no formato oficial de blocos do Notion:",
+                        text = "O Rocky Reader formata automaticamente todas as suas anotações no formato oficial de blocos do Notion:",
                         style = MaterialTheme.typography.bodySmall
                     )
 
@@ -553,7 +553,7 @@ fun SyncAndProfileScreen(
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         Text(
-                            text = "> \"Citação de destaque\"\n> 💡 **Nota:** Reflexão com data e página\n🏷️ #LuminaReader #Teologia #Notion",
+                            text = "> \"Citação de destaque\"\n> 💡 **Nota:** Reflexão com data e página\n🏷️ #RockyReader #Teologia #Notion",
                             style = MaterialTheme.typography.labelSmall,
                             fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
                             modifier = Modifier.padding(10.dp),
@@ -565,7 +565,7 @@ fun SyncAndProfileScreen(
 
                     Button(
                         onClick = {
-                            val sampleBook = books.firstOrNull() ?: BookEntity(title = "Lumina Reader", author = "Mateus", genre = "Leitura")
+                            val sampleBook = books.firstOrNull() ?: BookEntity(title = "Rocky Reader", author = "Mateus", genre = "Leitura")
                             val md = NotionExporter.formatBookAnnotationsForNotion(sampleBook, annotations)
                             NotionExporter.copyToClipboard(context, md, "Exportação em lote copiada para o Notion!")
                         },

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lumina Reader</string>
+    <string name="app_name">Rocky Reader</string>
     <string name="nav_library">Biblioteca</string>
     <string name="nav_reader">Leitor</string>
     <string name="nav_discover">Descobrir AI</string>
