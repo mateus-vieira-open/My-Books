@@ -1,0 +1,6 @@
+{
+  "name": "Lumina Reader",
+  "description": "Aplicativo de leitura digital com anotações em e-books, recomendações inteligentes com Gemini, busca por ISBN, metas gamificadas e sincronização.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

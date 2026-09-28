@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lumina Reader</string>
+    <string name="nav_library">Biblioteca</string>
+    <string name="nav_reader">Leitor</string>
+    <string name="nav_discover">Descobrir AI</string>
+    <string name="nav_gamification">Metas &amp; Ranking</string>
+    <string name="nav_sync">Sincronização</string>
+    <string name="search_hint">Buscar livro ou autor…</string>
+    <string name="search_isbn">Buscar por ISBN</string>
+    <string name="add_book">Adicionar Livro</string>
+    <string name="notes_title">Anotações &amp; Citações</string>
+    <string name="export_notion">Exportar para o Notion</string>
+</resources>

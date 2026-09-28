@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Star sparkle at top right -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M78,28 L80,33 L85,35 L80,37 L78,42 L76,37 L71,35 L76,33 Z" />
+    <!-- Small star sparkle top left -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M32,32 L33,35 L36,36 L33,37 L32,40 L31,37 L28,36 L31,35 Z" />
+    <!-- Book Base / Cover Shadow -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,42 C60,37 72,36 82,39 L82,75 C72,72 60,73 54,78 C48,73 36,72 26,75 L26,39 C36,36 48,37 54,42 Z" />
+    <!-- Left Page Inner -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53,44 C47,40 37,39 28,42 L28,73 C37,70 47,71 53,75 Z" />
+    <!-- Right Page Inner -->
+    <path
+        android:fillColor="#F1F5F9"
+        android:pathData="M55,44 C61,40 71,39 80,42 L80,73 C71,70 61,71 55,75 Z" />
+    <!-- Page text lines Left -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M33,48 L48,48 L48,50 L33,50 Z M33,54 L48,54 L48,56 L33,56 Z M33,60 L44,60 L44,62 L33,62 Z" />
+    <!-- Page text lines Right -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M60,48 L75,48 L75,50 L60,50 Z M60,54 L75,54 L75,56 L60,56 Z M60,60 L71,60 L71,62 L60,62 Z" />
+    <!-- Golden bookmark ribbon down the center -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M52,38 L56,38 L56,64 L54,61 L52,64 Z" />
+</vector>
